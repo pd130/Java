@@ -5,7 +5,7 @@ public class JdbcApplication {
 
     static String URL = "jdbc:mysql://localhost:3306/college_db?useSSL=false&serverTimezone=UTC";
     static String USER = "root";
-    static String PASS = "sit123";
+    static String PASS = "";
 
     static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASS);
